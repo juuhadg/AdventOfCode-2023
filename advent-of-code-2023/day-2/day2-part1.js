@@ -4,6 +4,8 @@ import fs from 'fs'
 
 // Problema do Dia 2 : https://adventofcode.com/2023/day/2
 
+// parte 2 --> pegar o maior numero de cada cor de cada jogo. multiplicar os 3. somar todo
+
 const cubosVermelhosDisponiveis = 12;
 
 const cubosVerdesDisponiveis = 13;

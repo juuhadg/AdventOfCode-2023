@@ -1,6 +1,9 @@
 
 import fs from 'fs'
 
+//desafio do dia 7 : https://adventofcode.com/2023/day/7
+
+
 const input = fs.readFileSync('./input.txt').toString()
 var jogos = input.split('\n')
 var jogosSorteados = []

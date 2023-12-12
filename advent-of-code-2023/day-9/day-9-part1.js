@@ -2,6 +2,9 @@ import fs from 'fs'
 
 const input = fs.readFileSync('./input.txt').toString().split('\n')
 
+
+//Desafio do dia 9 :  https://adventofcode.com/2023/day/9
+
 var diff = []
 var soma = 0
 for(var linha of input) {

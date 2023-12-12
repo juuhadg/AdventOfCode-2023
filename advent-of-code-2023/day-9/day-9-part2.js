@@ -2,6 +2,11 @@ import fs from 'fs'
 
 const input = fs.readFileSync('./input.txt').toString().split('\n')
 
+
+//Desafio do dia 9 :  https://adventofcode.com/2023/day/9
+
+//literalmente a mesma coisa da parte 1 , apenas inverter em vez do ultimo valor, usar o primeiro
+
 var diff = []
 var soma = 0
 for(var linha of input) {
